@@ -1,0 +1,10 @@
+.main-menu {
+	background-color: #f9f9f9;
+	padding: 15px 0px;
+	border-bottom: 2px solid #ff8b40;
+}
+
+#navlogo {
+	max-width: 125px;
+	height: auto;
+}

@@ -1,0 +1,12 @@
+body, html {
+	background-image: url('../media/background.jpg');
+}
+
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+#header {
+	width: 100%;
+}
