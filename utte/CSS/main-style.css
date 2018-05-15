@@ -1,12 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,500,500i,700,900');
+
 body, html {
-	background-image: url('../media/background.jpg');
+	background-color: #fafafa;
+	font-size: 12px;
+}
+
+footer {
+	width: 100%;
+	background-color: #121212;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	color: #fafafa;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+footer h2, h3, h4, h5, h6, p {
+	font-weight: 100;
+	font-family: 'Roboto', 'sans-serif';
 }
 
 .wrapper {
 	max-width: 960px;
+	width: 960px;
 	margin: 0 auto;
 }
 
 #header {
 	width: 100%;
+}
+
+#about {
+	border-left: 1px solid #dfdfdf;
+	border-right: 1px solid #dfdfdf;
+	padding: 10px 20px;
+	margin: 25px 0px;
+}
+
+#about h1 {
+	font-family: 'Roboto', 'sans-serif';
+	font-weight: 400;
+	font-size: 3em;
+	color: #121212;
+}
+
+#about h5 {
+	font-family: 'Roboto', 'sans-serif';
+	font-weight: 300;
+	font-size: 1.5em;
+	padding: 5px 15px;
+}
+
+#komplettering {
+	width: 100%;
+	background-color: #ff8b40;
+	height: auto;
+	padding: 20px 20px;
+	text-align: center;
+}
+
+#komplettering h2 {
+	color: #121212;
+	font-family: 'Roboto', 'sans-serif';
+	font-weight:100;
+	font-size: 2.6em;
+}
+
+#komplettering h4 {
+	font-family: 'Roboto', 'sans-serif';
+	font-weight: 100;
+	color: #fafafa;
+	font-size: 1.8em;
+}
+
+#komplettering a {
+	color: #fafafa;
+	text-decoration: underline;
+	transition: all 0.2s;
+}
+
+#komplettering a:hover {
+	transition: all 0.2s;
+	color: #323232;
+	cursor: pointer;
+}
+
+#komplettering h1 {
+	padding: 0px 0px 30px 0px;
+	font-family: 'Roboto', 'sans-serif';
+	font-weight: 700;
+}
+
+.lesson h3 {
+	color: white;
+	font-size: 2.5em !important;
+}
+
+.lesson p {
+	color: white;
+	font-size: 1.3em;
 }
