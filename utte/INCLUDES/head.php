@@ -4,7 +4,8 @@
 	<title>Uttes Trafikskola | <?php echo $secondarytitle ?></title>
 	<meta charset="UTF-8" />
 	<meta description="Hos oss på Uttes Trafikskola kan du utbilda dig inom bilkörning, från första körlektion till ditt körkort." />
-	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/mediaquery.css" />
 	<link rel="stylesheet" tyoe="text/css" href="css/main-style.css" />
 	<link rel="stylesheet" type="text/css" href="css/navigation.css" />
 </head>
