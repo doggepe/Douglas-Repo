@@ -1,0 +1,80 @@
+body, html {
+	min-height: 100%;
+	min-width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.header-img {
+	background-image: url('../images/fadebackground.jpg');
+	repeat: x;
+	overflow: auto;
+	height: auto;
+}
+
+.logo {
+  width: 45.4px;
+  height: 43px;
+  background-image: url('../images/logo.png');
+  background-size: contain;
+  float: left;
+  margin: 8px 50px 0px 0px
+}
+
+.header-img h1 {
+	padding: 5% 0% 1% 0%;
+	font-size: 40px;
+	font-family: 'Anton', 'sans-serif';
+}
+
+.header-img div {
+	margin-bottom: 25px;
+}
+
+.container {
+	max-width: 1180px !important;
+	margin: auto;
+}
+
+.navbar-inner {
+	overflow: hidden;
+}
+
+.navbar {
+	background-color: #000;
+	margin: 0 !important;
+	border: none !important;
+	border-radius: 0px !important;
+}
+
+.navbar a {
+	color: #FFF !important;
+	text-decoration: none;
+	padding-top: 15px !important;
+	padding-bottom: 15px !important; 
+}
+
+.nav {
+	float: left;
+}
+
+.nav li {
+	display: inline-block !important;
+	line-height: 30px;
+	height: 100%;
+}
+
+ul.nav a:hover { 
+	color: #000 !important; 
+}
+
+.twitter-typeahead {
+	width: 100% !important;
+}
+
+#publish-ad-btn {
+	float: right;
+	margin-top: 13px;
+	background-color: #00c6d6 !important;
+	border-color: #00c6d6;
+}
