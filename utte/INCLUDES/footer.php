@@ -1,7 +1,7 @@
 <footer class="footer">
 	<div class="wrapper">
 		<div class="nomobile row">
-		 	<div class="col-md-3"><div class="img-wrap"><img id="footlogo" src="media/uttelogo.png" alt="Uttes Trafikskola Logotyp Genomskinlig transparent" /></div></div>
+		 	<div class="col-md-3"><div class="img-wrap"><img id="footlogo" src="<?=ROOT_FILE?>media/uttelogo.png" alt="Uttes Trafikskola Logotyp Genomskinlig transparent" /></div></div>
 		 	<div class="col-sm-12 col-md-6"><div class="bottom"><p id="copyright">&#9400;  Douglas Pettersson Design</p></div></div>
 		 	<div class="col-sm-12 col-md-3">
 		 		<h5 style="font-size: 1.6em" class="utteinfo right">Utte's Trafikskola AB</h5>

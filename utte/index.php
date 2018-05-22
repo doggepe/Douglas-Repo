@@ -1,4 +1,5 @@
 <?php 
+	include('includes/config.php');
 	$secondarytitle = "Hem";
 	include('includes/head.php'); 
 ?>
