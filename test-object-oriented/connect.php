@@ -3,7 +3,7 @@ session_start();
 
 $dbuser = 'root';
 $dbpass = 'root';
-$dbname = 'oop';
+$dbname = 'test-oop';
 $dbhost = 'localhost';
 
 $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);

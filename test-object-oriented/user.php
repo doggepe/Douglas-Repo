@@ -29,7 +29,7 @@ class User {
     }
 
     public function redirect($url){
-    	header("Location: $url");
+    	header("Location: . " . $url . "");
     }
 
     public function logout(){
