@@ -2,6 +2,10 @@
 	include('../includes/config.php');
 	$secondarytitle = "Hem";
 	include('../includes/head.php'); 
+
+	if($_SESSION['loggedin'] == true){
+		$admin->redirect("../Admin/");
+	}
 ?>
 <div class="row">
 	<div class="col-md-12"/>
@@ -16,7 +20,7 @@
 			<div id="about">
 				<input type="text" name="username" id="username"/>
 				<input type="password" name="password" id="password"/>
-				<div id="login-btn">Logga in</div>
+				<button id="login-btn">Logga in</button>
 			</div>
 		</div>
 	</div>
@@ -27,11 +31,11 @@
 		var username = $('#username').val();
 		var password = $('#password').val();
 		var action = "login";
+
 			$.ajax({
-				data: '{ username: "username", password: "password", action: "action"}',
 				type: 'POST',
-				url: '../includes/adminclass.php',
-				contentType: 'application/json',
+				data: { username: username, password: password, action: action },
+				url: '../includes/caseclass.php',
 				dataType: 'json',
 				success: function(data){
 					console.log('Function success');
